@@ -7,9 +7,9 @@ def create_runtext_video(text, filename="my_file.mp4", duration=3, size=(100, 10
     width, height = size
     font_size = 80
     try:
-        font = ImageFont.truetype("arialmt.ttf", font_size)
+        font = ImageFont.truetype("arial.ttf", font_size)
     except IOError:
-        print("Ошибка: шрифт 'arialmt.ttf' не найден.")
+        print("Ошибка: шрифт 'arial.ttf' не найден.")
         return
 
     # Длина текста в пикселях
